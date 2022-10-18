@@ -8,8 +8,15 @@ function generatePassword(){
 
     if(isNaN(passwordLength)){
       window.alert("that is not a number")
+      return
+    } 
+
+    if (passwordLength < 8 || passwordLength > 128){
+      window.alert("password length must be between 8 and 128 characters")
+      return
     }
 
+    var userNumbers = window.confirm("would you like to include numbers in your password?")
 
   return "Generated password"
 }
