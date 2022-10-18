@@ -61,6 +61,10 @@ function generatePassword(){
       optionsList.push(uppercaseList)
     }
 
+    if(optionsList.length === 0){
+      optionsList.push(lowercaseList)
+    }
+
     var generatedPassword = ""
 
     for (var i = 0; i < passwordLength; i++){
