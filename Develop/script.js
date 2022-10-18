@@ -70,9 +70,10 @@ function generatePassword(){
     for (var i = 0; i < passwordLength; i++){
       var randomList = getRandomItem(optionsList)
       var randomChar = getRandomItem(randomList)
-      console.log(randomChar)
+      generatedPassword += randomChar
     }
 
+    return generatedPassword
   
 }
 
