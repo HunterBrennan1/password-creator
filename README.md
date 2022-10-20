@@ -21,7 +21,7 @@ This is an application the allows users to generate a random password including 
 
 * JavaScript
 
-*CSS
+* CSS
 
 ***
 
